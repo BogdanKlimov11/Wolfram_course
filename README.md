@@ -10,6 +10,7 @@
     <ol>
         <li><a href="#раздел-1">Введение</a></li>
         <li><a href="#раздел-2">Ввод выражений</a></li>
+        <li><a href="#раздел-3">Обыкновенные и десятичные дроби</a></li>
     </ol>
 </nav>
 
@@ -88,6 +89,40 @@
 Создавать списки можно легко, благодаря таким функциям как `Range`:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/a7d04f4c-0a86-40a8-99ee-362331cbafc7">
+
+---
+
+<h2 id="раздел-3">Обыкновенные и десятичные дроби <a href="#top">↑top↑</a></h2>
+
+В Языке Wolfram, точные входные данные (например, обыкновенные дроби) приведут к точному результату 
+(Используйте <kbd>CTRL</kbd> + <kbd>/</kbd> для ввода обыкновенных дробей):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b35d476b-e5eb-4a09-b72d-26bf0d24c534">
+
+Сложим дроби, используя функцию `Together`, которая обеспечивает наименьший общий делитель в ответе:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b2f6254c-ed1f-4018-962f-3a3de27c7b3e">
+
+Если в выражении представлена хотя бы одна десятичная дробь, то результат будет представлен в 
+приближенной форме:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/a67bd858-267c-45e8-bf7b-fbf6dfd8e6f8">
+
+Функция `N` позволяет получить численное приближение результата:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/a37684c1-957b-4da4-b3e8-3c23c1891925">
+
+Также можно указать необходимую точность результата:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/8eedf0c7-0660-48b1-889f-01f69ab8ef44">
+
+Некоторые цифры лучше отображать, используя `ScientificForm`:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/18d17b3f-e28e-42db-9027-c7579bc4057d">
+
+`ScientificForm` используется автоматически, когда это необходимо:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f81d75a0-237b-40d8-b981-7556f0e7fdac">
 
 ---
 
