@@ -16,6 +16,7 @@
         <li><a href="#раздел-6">Двумерные графики</a></li>
         <li><a href="#раздел-7">Геометрия</a></li>
         <li><a href="#раздел-8">Тригонометрия</a></li>
+        <li><a href="#раздел-9">Полярные координаты</a></li>
     </ol>
 </nav>
 
@@ -334,6 +335,23 @@ pi <kbd>ESC</kbd> для ввода символа `π`):
 Уточним интересующую область решений:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/d72915ac-9939-40e9-981d-2a860e933dbb">
+
+---
+
+<h2 id="раздел-9">Полярные координаты <a href="#top">↑top↑</a></h2>
+
+Построим двумерный график в **полярных координатах** (наберите <kbd>ESC</kbd> th <kbd>ESC</kbd> 
+для ввода символа `θ`):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/66bcd711-77a8-4234-b46a-3aa8cd2e81ad">
+
+Используем **полярную систему** координат вместо декартовой:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/794d407e-11e7-4be5-b3db-b0323a7e3d62">
+
+Переведем декартовы координаты в полярные:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f4db0c6e-153f-4602-9db9-5202630445fd">
 
 ---
 
