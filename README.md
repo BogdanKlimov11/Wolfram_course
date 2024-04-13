@@ -15,6 +15,7 @@
         <li><a href="#раздел-5">Алгебра</a></li>
         <li><a href="#раздел-6">Двумерные графики</a></li>
         <li><a href="#раздел-7">Геометрия</a></li>
+        <li><a href="#раздел-8">Тригонометрия</a></li>
     </ol>
 </nav>
 
@@ -208,7 +209,8 @@
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b5b74a97-1cc1-4033-900e-ca7e5e54f40f">
 
-Функция `Reduce` сводит системы **неравенств** к простой форме (наберите `<=` для ввода символа `≤`):
+Функция `Reduce` сводит системы **неравенств** к простой форме (наберите `<=` для ввода символа 
+`≤`):
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/d02de507-4512-47ad-b300-076fc60463fc">
 
@@ -296,6 +298,42 @@
 `Translate` и `Scale`:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/459a0ad6-61c3-446e-8681-c2bb61e7634e">
+
+---
+
+<h2 id="раздел-8">Тригонометрия <a href="#top">↑top↑</a></h2>
+
+Для базовых тригонометрических функций используются стандартные обозначения (первые буквы в 
+именах функций - заглавные):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/e4855890-b2d6-48f6-8dd0-64aa811486b9">
+
+Добавим ключевое слово “Arc” для получения обратных функций:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/1c19bdbe-c89c-4e62-929b-4ed0748ed51e">
+
+Для работы с радианами зачастую необходимо использовать константу `Pi` (наберите <kbd>ESC</kbd> 
+pi <kbd>ESC</kbd> для ввода символа `π`):
+
+Или наберите <kbd>ESC</kbd> deg <kbd>ESC</kbd> для использования встроенного символа `Degree`:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/9b8badbc-e471-4d6f-81ed-98d5708fa5bd">
+
+**Разложим** (или **упростим**) тригонометрические выражения, используя известные тождества:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/477c6697-14d9-4c9e-9587-ccc8282bc3a2">
+
+Выполним факторизацию тригонометрического полинома:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/6d763315-d77a-4dff-b728-2a0ef7c5d520">
+
+Такие функции, как `Solve`, также позволяют решать подобные уравнения:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/77408d72-8aba-4e1c-9e74-f8c904b8e6d6">
+
+Уточним интересующую область решений:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/d72915ac-9939-40e9-981d-2a860e933dbb">
 
 ---
 
