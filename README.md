@@ -18,6 +18,7 @@
         <li><a href="#раздел-8">Тригонометрия</a></li>
         <li><a href="#раздел-9">Полярные координаты</a></li>
         <li><a href="#раздел-10">Степени и логарифмы</a></li>
+        <li><a href="#раздел-11">Пределы</a></li>
     </ol>
 </nav>
 
@@ -375,6 +376,34 @@ pi <kbd>ESC</kbd> для ввода символа `π`):
 Построим обе оси в логарифмическом масштабе:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/8ba3bee6-35a1-40ac-94ce-826b9b019016">
+
+---
+
+<h2 id="раздел-1">Введение <a href="#top">↑top↑</a></h2>
+
+Рассчитаем **предельное значение** выражения (наберите `->` для ввода символа `→`):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/577d684f-7130-4935-aa90-eceea98a0c56">
+
+Найдем предел на **бесконечности** (наберите <kbd>ESC</kbd> inf <kbd>ESC</kbd> для ввода символа 
+`∞`):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/dbcafa32-1285-47e1-86f8-36bfd1de1cd8">
+
+Также предусмотрена возможность указания **направления** предела.
+
+Значение 1 означает приближение слева:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/30c481d4-00a3-458b-a7b3-0a0464d0d348">
+
+Значение −1 означает приближение справа:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/fbaf79de-09fc-4596-b304-66585646b994">
+
+Используем функцию `HoldForm` для предотвращения вычисления выражения (функция `TraditionalForm` 
+использует классическую математическую нотацию):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f5e4618c-133b-4f39-84f2-653e9b415015">
 
 ---
 
