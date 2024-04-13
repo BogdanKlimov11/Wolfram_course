@@ -21,6 +21,7 @@
         <li><a href="#раздел-11">Пределы</a></li>
         <li><a href="#раздел-12">Производные</a></li>
         <li><a href="#раздел-13">Интегралы</a></li>
+        <li><a href="#раздел-14">Последовательности, суммы и ряды</a></li>
     </ol>
 </nav>
 
@@ -461,6 +462,63 @@ pi <kbd>ESC</kbd> для ввода символа `π`):
 Используем функцию `NIntegrate` для получения численного решения:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/31d8dd48-2813-4cb4-bedc-e61f0c3e4370">
+
+---
+
+<h2 id="раздел-14">Последовательности, суммы и ряды <a href="#top">↑top↑</a></h2>
+
+В Языке Wolfram целочисленные последовательности представлены в виде списков.
+
+Используем функцию `Table` для задания простой последовательности:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/42231f6d-54b3-429e-8f60-3d2c956129cf">
+
+Некоторые известные последовательности уже встроены в язык:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/82f7f271-6b85-4f69-9c81-b615e5db462e">
+
+Для задания рекурсивных последовательностей используем функцию `RecurrenceTable` (обратите 
+внимание на использование нотации `{x,min,max}`):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/94002427-8a72-492e-b3ae-e9d1e684a818">
+
+Вычислим сумму всех элементов последовательности, используя функцию `Total`:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/d0986dce-db7e-4723-8ee4-a9df56bbd176">
+
+Вычислим сумму элементов последовательности, используя функцию `Sum` и производящую функцию:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f7dcbf6e-4d59-4621-a758-00936d5d1bd6">
+
+Используйте <kbd>ESC</kbd> sumt <kbd>ESC</kbd> для создания заполняемого шаблона:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/12ca44d5-cbab-4018-8df2-abea20d16252">
+
+Существует возможность задания вложенных и неопределенных сумм:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/02c9b1c9-3fd3-42df-b724-1d1f973190d9">
+
+Найдем производящую функцию для последовательности:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/5a02053e-baaf-4cd0-aa02-384a5e381ba1">
+
+Сгенерируем степенной ряд для представления практически любой комбинации встроенных функций:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/4baa7b31-53f6-4fef-8710-6bd9818eb8fc">
+
+O[x]<sup>9</sup> представляет член высшего порядка; используем функцию `Normal` для того, чтобы 
+отбросить его:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b0763465-7531-4c31-9911-40524caa68b0">
+
+Если функции `Series` передать неизвестную или неопределенную функцию, то она вернет степенной ряд 
+в терминах производных:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/a983ff6c-b357-4ccd-ac86-7a66edfcf270">
+
+Сходящийся ряд может упрощаться автоматически:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/75f8a0e2-e67d-414c-bcd7-a9c1bc9e7bf7">
 
 ---
 
