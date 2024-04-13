@@ -13,6 +13,7 @@
         <li><a href="#раздел-3">Обыкновенные и десятичные дроби</a></li>
         <li><a href="#раздел-4">Переменные и функции</a></li>
         <li><a href="#раздел-5">Алгебра</a></li>
+        <li><a href="#раздел-6">Двумерные графики</a></li>
     </ol>
 </nav>
 
@@ -221,6 +222,31 @@
 Большое число уравнений и формул доступно через естественную форму ввода:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/a2c1fca9-9abf-40bc-8fdc-56df3fb88e85">
+
+---
+
+<h2 id="раздел-6">Двумерные графики <a href="#top">↑top↑</a></h2>
+
+Создадим двумерный график полиномиальной функции (интервал `{x,min,max}` используется для задания 
+области определения аргумента):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/da25fa93-82a3-4633-9483-17a5a88985e4">
+
+Или построим двумерную область, заданную системой неравенств (`&&` - это символ для `И`):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/526c16b8-18fa-4c6d-a9fd-31644acec16c">
+
+Существует большое число опций для настройки визуализации, например, добавление легенд:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/1c93f53c-a704-4690-91b0-01eb5e39e5fa">
+
+Или закрашивание области под графиком:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/e4ef8643-62a4-43c0-a3f9-6bd78dad4208">
+
+Соединим несколько типов графиков с помощью функции `Show`:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/458fdd8e-75a7-4fc6-81ac-00a90582d883">
 
 ---
 
