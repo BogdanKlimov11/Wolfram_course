@@ -20,6 +20,7 @@
         <li><a href="#раздел-10">Степени и логарифмы</a></li>
         <li><a href="#раздел-11">Пределы</a></li>
         <li><a href="#раздел-12">Производные</a></li>
+        <li><a href="#раздел-13">Интегралы</a></li>
     </ol>
 </nav>
 
@@ -438,6 +439,28 @@ pi <kbd>ESC</kbd> для ввода символа `π`):
 форму ввода**:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/cf2c45aa-702f-4bbe-9cdb-6c8b0008f08e">
+
+---
+
+<h2 id="раздел-13">Интегралы <a href="#top">↑top↑</a></h2>
+
+Вычислим интеграл с использованием функции `Integrate`:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/d6d73f97-f4af-48c0-a4b4-7ca93d1806d6">
+
+Или набрав <kbd>ESC</kbd> intt <kbd>ESC</kbd> для создания заполняемого математического шаблона 
+(подробная информация о заполняемых шаблонах представлена в разделе `Математическая нотация`):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/1b02aad2-71ef-4caa-8a4c-bf261925288d">
+
+Для задания определенного интеграла наберем <kbd>ESC</kbd> dintt <kbd>ESC</kbd> и укажем нижний 
+и верхний пределы интегрирования:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/9a23c483-6ac1-465e-98b0-15c90a6afea9">
+
+Используем функцию `NIntegrate` для получения численного решения:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/31d8dd48-2813-4cb4-bedc-e61f0c3e4370">
 
 ---
 
