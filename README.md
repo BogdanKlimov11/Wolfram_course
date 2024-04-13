@@ -23,6 +23,7 @@
         <li><a href="#раздел-13">Интегралы</a></li>
         <li><a href="#раздел-14">Последовательности, суммы и ряды</a></li>
         <li><a href="#раздел-15">Специализированные двумерные графики</a></li>
+        <li><a href="#раздел-16">Трехмерные графики</a></li>
     </ol>
 </nav>
 
@@ -536,6 +537,26 @@ O[x]<sup>9</sup> представляет член высшего порядка
 Функция `DensityPlot` строит непрерывный график - диаграмму плотности функции:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/45a80cc5-4349-4dc7-b14b-7afd32357d09">
+
+---
+
+<h2 id="раздел-16">Трехмерные графики <a href="#top">↑top↑</a></h2>
+
+Функция `Plot3D` используется для построения трехмерных графиков в декартовых координатах:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/3695c2fd-93d1-47ee-b58f-a11a47083aa7">
+
+С помощью функции `ParametricPlot3D` построим трехмерную пространственную кривую:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/2e072705-8081-4864-9286-7aa25fbc90c2">
+
+Для работы в сферических координатах используется функция `SphericalPlot3D`:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/feea0b9c-f0d8-4748-ae34-2e8b2b12186b">
+
+Функция `RevolutionPlot3D` строит поверхность вращения с использованием заданного выражения:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/458a3ede-51d0-4c11-bcc4-0d9bfbeab6ce">
 
 ---
 
