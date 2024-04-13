@@ -22,6 +22,7 @@
         <li><a href="#раздел-12">Производные</a></li>
         <li><a href="#раздел-13">Интегралы</a></li>
         <li><a href="#раздел-14">Последовательности, суммы и ряды</a></li>
+        <li><a href="#раздел-15">Специализированные двумерные графики</a></li>
     </ol>
 </nav>
 
@@ -519,6 +520,22 @@ O[x]<sup>9</sup> представляет член высшего порядка
 Сходящийся ряд может упрощаться автоматически:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/75f8a0e2-e67d-414c-bcd7-a9c1bc9e7bf7">
+
+---
+
+<h2 id="раздел-15">Специализированные двумерные графики <a href="#top">↑top↑</a></h2>
+
+Функция `ParametricPlot` позволяет создавать параметрические графики:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/249fa26b-8e9f-4054-86fb-81bf144d88c7">
+
+Функция `ContourPlot` позволяет построить график линий уровня:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/4e574e70-e7a2-4366-b046-9d696c598540">
+
+Функция `DensityPlot` строит непрерывный график - диаграмму плотности функции:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/45a80cc5-4349-4dc7-b14b-7afd32357d09">
 
 ---
 
