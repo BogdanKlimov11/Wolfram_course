@@ -19,6 +19,7 @@
         <li><a href="#раздел-9">Полярные координаты</a></li>
         <li><a href="#раздел-10">Степени и логарифмы</a></li>
         <li><a href="#раздел-11">Пределы</a></li>
+        <li><a href="#раздел-12">Производные</a></li>
     </ol>
 </nav>
 
@@ -379,7 +380,7 @@ pi <kbd>ESC</kbd> для ввода символа `π`):
 
 ---
 
-<h2 id="раздел-1">Введение <a href="#top">↑top↑</a></h2>
+<h2 id="раздел-11">Введение <a href="#top">↑top↑</a></h2>
 
 Рассчитаем **предельное значение** выражения (наберите `->` для ввода символа `→`):
 
@@ -404,6 +405,39 @@ pi <kbd>ESC</kbd> для ввода символа `π`):
 использует классическую математическую нотацию):
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f5e4618c-133b-4f39-84f2-653e9b415015">
+
+---
+
+<h2 id="раздел-12">Производные <a href="#top">↑top↑</a></h2>
+
+Для расчета производных используется функция `D`:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f9f4d021-246b-4a72-9fa0-41febf41119d">
+
+Или штрих в традиционной нотации:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/320a50ee-6887-4082-8b60-152a633f7a80">
+
+Дифференцирование работает также для пользовательских функций:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/d1e7286c-295a-4e7c-8159-365eea10a916">
+
+Производные можно использовать в явном виде для построения графиков:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/30ccc247-8d54-4f3b-896a-6e0855f5cb3d">
+
+Рассчитаем производную более высокого порядка с использованием функции:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/dd744912-691c-46b8-950f-62368b901ddb">
+
+Или несколько раз запишем символ штриха:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/47ea8f44-91db-4dd2-9c47-5c8ebe8fe78d">
+
+Также, как и в предыдущих разделах, формулы математического анализа доступны через **естественную 
+форму ввода**:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/cf2c45aa-702f-4bbe-9cdb-6c8b0008f08e">
 
 ---
 
