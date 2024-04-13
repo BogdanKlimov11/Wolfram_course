@@ -12,6 +12,7 @@
         <li><a href="#раздел-2">Ввод выражений</a></li>
         <li><a href="#раздел-3">Обыкновенные и десятичные дроби</a></li>
         <li><a href="#раздел-4">Переменные и функции</a></li>
+        <li><a href="#раздел-5">Алгебра</a></li>
     </ol>
 </nav>
 
@@ -166,6 +167,60 @@
 функцию после ее вычисления:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f4243824-e761-4902-94f4-660cacdcfddd">
+
+---
+
+<h2 id="раздел-5">Алгебра <a href="#top">↑top↑</a></h2>
+
+Можно проводить факторизацию или раскрывать алгебраические выражения (используйте <kbd>CTRL</kbd> 
++ <kbd>6</kbd> для ввода степени):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/c08bfc86-29d0-4c79-b26c-5d48695743ce">
+
+В языке Wolfram символ `==` (два знака равенства) используется для проверки равенства:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/79c2b56c-9d74-40b3-bd53-d3d1b7e20ad9">
+
+Объединим алгебраические выражения с помощью `==` для формирования уравнения:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/620fb840-3314-4e3b-a300-7bf224c1232c">
+
+Функции, такие как `Solve` позволяют найти точные решения уравнений:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/614345da-667d-4ac0-a1c3-dba038301e97">
+
+Для приближенных результатов используйте `NSolve`:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b09f06ff-e307-438d-b364-c03bfde0f160">
+
+Систему уравнений можно передать функции в виде списка:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/eb935e24-8fc5-4c25-b0e6-9be48220e374">
+
+Найдем корни уравнения (символ `||` обозначает `Или`):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f97c7e3d-a954-49ad-8f84-fb737750bce7">
+
+В случае если полином не так просто разложить на множители, то лучше использовать приближенные 
+решения:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b5b74a97-1cc1-4033-900e-ca7e5e54f40f">
+
+Функция `Reduce` сводит системы неравенств к простой форме (наберите `<=` для ввода символа `≤`):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/d02de507-4512-47ad-b300-076fc60463fc">
+
+Упрощенная форма может состоять из нескольких интервалов:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/211aec2c-e9a0-4496-8237-0178b88472a6">
+
+Функция `NumberLinePlot` - это удобный способ визуализации этих результатов:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b5b0b437-7abf-4d5e-a7a2-b101bc8cb7ad">
+
+Большое число уравнений и формул доступно через естественную форму ввода:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/a2c1fca9-9abf-40bc-8fdc-56df3fb88e85">
 
 ---
 
