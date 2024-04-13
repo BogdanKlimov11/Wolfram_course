@@ -17,6 +17,7 @@
         <li><a href="#раздел-7">Геометрия</a></li>
         <li><a href="#раздел-8">Тригонометрия</a></li>
         <li><a href="#раздел-9">Полярные координаты</a></li>
+        <li><a href="#раздел-10">Степени и логарифмы</a></li>
     </ol>
 </nav>
 
@@ -181,7 +182,7 @@
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/c08bfc86-29d0-4c79-b26c-5d48695743ce">
 
-В языке Wolfram символ `==` (два знака равенства) используется для проверки равенства:
+В Языке Wolfram символ `==` (два знака равенства) используется для проверки равенства:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/79c2b56c-9d74-40b3-bd53-d3d1b7e20ad9">
 
@@ -352,6 +353,28 @@ pi <kbd>ESC</kbd> для ввода символа `π`):
 Переведем декартовы координаты в полярные:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f4db0c6e-153f-4602-9db9-5202630445fd">
+
+---
+
+<h2 id="раздел-10">Степени и логарифмы <a href="#top">↑top↑</a></h2>
+
+В Языке Wolfram для отображения экспоненты используется символ `E`.
+
+Функция `Log` возвращает натуральный алгоритм выражения:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/00ee7cef-b5fe-4b2d-b01c-79819d4360ec">
+
+Вычислим логарифм по основанию 2:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b1a7d4b1-43d0-4901-8557-f2d55cfb6fb8">
+
+Построим график, используя логарифмический масштаб по оси ординат:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/91895e5c-cb43-4458-8a13-528fc8dbf08d">
+
+Построим обе оси в логарифмическом масштабе:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/8ba3bee6-35a1-40ac-94ce-826b9b019016">
 
 ---
 
