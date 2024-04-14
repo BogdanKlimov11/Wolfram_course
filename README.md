@@ -26,6 +26,7 @@
         <li><a href="#раздел-16">Трехмерные графики</a></li>
         <li><a href="#раздел-17">Функции нескольких переменных</a></li>
         <li><a href="#раздел-18">Векторный анализ и визуализация</a></li>
+        <li><a href="#раздел-19">Дифференциальные уравнения</a></li>
     </ol>
 </nav>
 
@@ -630,6 +631,43 @@ O[x]<sup>9</sup> представляет член высшего порядка
 Построим сечения векторного поля:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/52edc26a-3576-43b0-b4c7-54c4b709bd7b">
+
+---
+
+<h2 id="раздел-19">Дифференциальные уравнения <a href="#top">↑top↑</a></h2>
+
+Язык Wolfram позволяет решать обыкновенные дифференциальные уравнения, дифференциальные уравнения в 
+частных производных и уравнения с запаздыванием.
+
+Функция `DSolveValue` возвращает решение дифференциального уравнения в общем виде (C[1] - константа 
+интегрирования):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/4a0a2ef3-0796-4598-acc3-b7a0f77b8864">
+
+Используем символ `/.` для замены константы:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/cf151da3-e5d9-4ed8-8b75-16a3ab111965">
+
+Или добавим начальные условия для получения частного решения:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/379cb11d-25a3-4eb2-aa7a-ebddb1452519">
+
+Функция `NDSolveValue` позволяет находить численные решения:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/c08d656b-f8d2-4138-80bc-340bcef6317d">
+
+Объект `InterpolatingFunction` можно визуализировать без дополнительной обработки:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/77f9d296-854b-4635-b0fe-60ac1381ca7e">
+
+Для решения систем дифференциальных уравнений, необходимо использовать списки для задания уравнений 
+и условий (обратите внимание, что перенос уравнений на новую строку не влияет на результат):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/e0d32306-b3f9-48e5-9f2a-9087cee3913f">
+
+Построим решения системы в виде параметрического графика:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/e1d47d65-3ae0-4490-b08f-527a3f3468f0">
 
 ---
 
