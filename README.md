@@ -33,6 +33,7 @@
         <li><a href="#раздел-23">Вероятности</a></li>
         <li><a href="#раздел-24">Статистика</a></li>
         <li><a href="#раздел-25">Функции для визуализации данных и аппроксимации кривых</a></li>
+        <li><a href="#раздел-26">Теория групп</a></li>
     </ol>
 </nav>
 
@@ -932,6 +933,37 @@ O[x]<sup>9</sup> представляет член высшего порядка
 Используем функцию `Show`, чтобы сравнить полученную аппроксимацию с исходными данными:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/7945c13b-09a6-496b-a474-c066938e8f32">
+
+---
+
+<h2 id="раздел-26">Теория групп <a href="#top">↑top↑</a></h2>
+
+`SymmetricGroup`, `AlternatingGroup`, `DihedralGroup` и многие другие **именованные 
+группы** уже встроены в Язык Wolfram.
+
+Выведем список **элементов** группы:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/3809c13a-0ea8-4712-8a5d-51769434e3a7">
+
+Определим **генератор** группы:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/0f9edcbe-dbc8-4cef-baf0-9cb70c99d062">
+
+Создадим **группу перестановок** из двух генераторов:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/ec6623a0-8bee-4a4d-8bdd-3b6ac03a25f2">
+
+Вычислим ее порядок:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b022db99-160b-4da1-b428-13bfd5fb871c">
+
+Отобразим **таблицу умножения** группы:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/5bd68c16-0830-4fd3-9d4b-487e99d69e86">
+
+Визуализируем ее с помощью **графа Кэли**:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/249e3da0-002b-41e9-b068-1855d115ca4b">
 
 ---
 
