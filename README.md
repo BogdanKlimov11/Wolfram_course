@@ -724,7 +724,7 @@ O[x]<sup>9</sup> представляет член высшего порядка
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/c32f38d6-b136-4b62-8684-debcb9c1cf73">
 
 Их можно вводить в табличном виде, используя <kbd>CTRL</kbd> + <kbd>ENTER</kbd> для добавления строк и 
-<kbd>CTRL<kbd> + <kbd>,<kbd> для добавления столбцов:
+<kbd>CTRL</kbd> + <kbd>,</kbd> для добавления столбцов:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f1624bbf-80f0-4d29-b0e0-41c98493801c">
 
