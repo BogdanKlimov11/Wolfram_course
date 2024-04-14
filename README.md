@@ -24,6 +24,7 @@
         <li><a href="#раздел-14">Последовательности, суммы и ряды</a></li>
         <li><a href="#раздел-15">Специализированные двумерные графики</a></li>
         <li><a href="#раздел-16">Трехмерные графики</a></li>
+        <li><a href="#раздел-17">Функции нескольких переменных</a></li>
     </ol>
 </nav>
 
@@ -557,6 +558,33 @@ O[x]<sup>9</sup> представляет член высшего порядка
 Функция `RevolutionPlot3D` строит поверхность вращения с использованием заданного выражения:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/458a3ede-51d0-4c11-bcc4-0d9bfbeab6ce">
+
+---
+
+<h2 id="раздел-17">Функции нескольких переменных <a href="#top">↑top↑</a></h2>
+
+Функция `D` позволяет также рассчитывать частные производные - необходимо только уточнить по 
+каким переменным дифференцировать:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/d5507b9e-6bd1-4842-8896-a4bf1ff28b1a">
+
+Также можно использовать символ `∂` (наберите <kbd>ESC</kbd> pd <kbd>ESC</kbd> для ввода символа 
+`∂` и <kbd>CTRL</kbd> + <kbd>-</kbd> для ввода нижнего индекса):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/0994273d-2fb5-481f-93c8-252a72e5a53a">
+
+Кратные интегралы используют такую же нотацию, как и обычные интегралы (наберите <kbd>ESC</kbd> int 
+<kbd>ESC</kbd> для ввода символа `∫` и <kbd>ESC</kbd> dd <kbd>ESC</kbd> для ввода символа `d`):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b81f0de5-dc8c-4a68-8410-eb17d2135d3b">
+
+Символьные результаты часто бывают достаточно сложными
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/71c9e383-bf57-4c95-a6f3-78e002d794b4">
+
+В таких случаях можно использовать функцию `N` для получения приближенного решения:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/99c65c51-26eb-4b0a-93d2-85ff4ab6f7b3">
 
 ---
 
