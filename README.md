@@ -27,6 +27,7 @@
         <li><a href="#раздел-17">Функции нескольких переменных</a></li>
         <li><a href="#раздел-18">Векторный анализ и визуализация</a></li>
         <li><a href="#раздел-19">Дифференциальные уравнения</a></li>
+        <li><a href="#раздел-20">Комплексные числа</a></li>
     </ol>
 </nav>
 
@@ -668,6 +669,50 @@ O[x]<sup>9</sup> представляет член высшего порядка
 Построим решения системы в виде параметрического графика:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/e1d47d65-3ae0-4490-b08f-527a3f3468f0">
+
+---
+
+<h2 id="раздел-20">Комплексные числа <a href="#top">↑top↑</a></h2>
+
+Мнимая единица $\sqrt{-1}$ представлена символом `I`:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/50a0c3a2-a5a6-4376-9441-775c0c50ea19">
+
+Большинство операций автоматически поддерживают работу с комплексными числами:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/17fb5eaa-6c90-402f-982b-79d1accb284a">
+
+Разложим комплексное выражение:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/4825b0e7-183b-4eb2-808d-0f4fbbfa987a">
+
+Перевод выражения из экспоненциальной формы в тригонометрическую и обратно:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/1e26eaf8-fddb-48a7-aaed-7c016ea75b41">
+
+Наберем <kbd>ESC</kbd> co <kbd>ESC</kbd> для ввода символа **сопряженности**:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/bfe2e5f8-da41-46a5-a63c-b047487055e5">
+
+Выделим действительную и мнимую части выражения:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/4b110cf2-8f91-4461-b0a6-b05d75044386">
+
+Или вычислим абсолютное значение и аргумент комплексного числа:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/5eae78f4-d8c4-4465-a6e8-516c18c14791">
+
+Построим конформное отображение с помощью функции `ParametricPlot`:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b923c111-fa7d-4a09-96d8-6215fbf2fede">
+
+Используем функцию AbsArg при построении графика `PolarPlot`:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/d0ec28ef-3448-480b-a0ff-c89f2be3914c">
+
+Визуализируем мнимую компоненту, используя функцию `DensityPlot`:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b3feaa31-083a-4dfe-860a-b5de5df375d7">
 
 ---
 
