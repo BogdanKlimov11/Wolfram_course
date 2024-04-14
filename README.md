@@ -623,7 +623,7 @@ O[x]<sup>9</sup> представляет член высшего порядка
 
 Язык Wolfram содержит встроенные функции для **визуализации** двумерных и трехмерных векторных полей:
 
-<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/4bfdd961-27d8-4127-a0c6-949f9e53f8d2">
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/4bfdd961-27d8-4127-a0c6-949f9e53f8d2"> <br>
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/37b5dc8b-fa40-441f-a7f6-c49497f6026e">
 
