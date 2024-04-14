@@ -25,6 +25,7 @@
         <li><a href="#раздел-15">Специализированные двумерные графики</a></li>
         <li><a href="#раздел-16">Трехмерные графики</a></li>
         <li><a href="#раздел-17">Функции нескольких переменных</a></li>
+        <li><a href="#раздел-18">Векторный анализ и визуализация</a></li>
     </ol>
 </nav>
 
@@ -585,6 +586,50 @@ O[x]<sup>9</sup> представляет член высшего порядка
 В таких случаях можно использовать функцию `N` для получения приближенного решения:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/99c65c51-26eb-4b0a-93d2-85ff4ab6f7b3">
+
+---
+
+<h2 id="раздел-18">Векторный анализ и визуализация <a href="#top">↑top↑</a></h2>
+
+В Языке Wolfram n-мерные вектора представляются в виде списков длиной n.
+
+Вычислим **скалярное произведение** двух векторов:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/04bfcca5-b368-4181-8902-337b88e30ee9">
+
+Для расчета **векторного произведения** необходимо ввести символ <kbd>ESC</kbd> cross <kbd>ESC</kbd>:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/5f6b97d0-ced9-4a1a-a843-e836e976404b">
+
+Вычислим **норму** вектора:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/59a2968c-be65-4699-a114-8752d73ea123">
+
+Найдем **проекцию** вектора на ось x:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/94237bd6-bb7b-4136-a123-0a79bdbfb9a3">
+
+Найдем угол между двумя векторами:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/d7c6eaf9-34b7-49ec-9efa-49fc03674781">
+
+Рассчитаем **градиент** вектора (для ввода символа `∇`, наберите <kbd>ESC</kbd> grad <kbd>ESC</kbd>):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/5c57abff-d510-454f-bf81-5ad6248624b2">
+
+Вычислим **дивергенцию** или **ротор** векторного поля:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/00279450-bc44-4799-9aed-8e0bd3152b73">
+
+Язык Wolfram содержит встроенные функции для **визуализации** двумерных и трехмерных векторных полей:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/4bfdd961-27d8-4127-a0c6-949f9e53f8d2">
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/37b5dc8b-fa40-441f-a7f6-c49497f6026e">
+
+Построим сечения векторного поля:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/52edc26a-3576-43b0-b4c7-54c4b709bd7b">
 
 ---
 
