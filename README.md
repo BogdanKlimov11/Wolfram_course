@@ -31,6 +31,7 @@
         <li><a href="#раздел-21">Матрицы и линейная алгебра</a></li>
         <li><a href="#раздел-22">Дискретная математика</a></li>
         <li><a href="#раздел-23">Вероятности</a></li>
+        <li><a href="#раздел-24">Статистика</a></li>
     </ol>
 </nav>
 
@@ -863,6 +864,43 @@ O[x]<sup>9</sup> представляет член высшего порядка
 реальных событий:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/771a20dd-ed69-4569-9ba0-31034153cef8">
+
+---
+
+<h2 id="раздел-24">Статистика <a href="#top">↑top↑</a></h2>
+
+В Языке Wolfram статистические функции в качестве аргументов принимают либо списки, либо 
+**символьные распределения**.
+
+Вычислим **среднее значение** элементов списка:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/25392b3f-7ce7-4456-b053-caf3de1fe64e">
+
+Определим **степень корреляции** двух списков:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/be9bba3a-fcef-471f-99df-b1a492b1b68e">
+
+Рассчитаем **среднеквадратичное отклонение** для распределения Пуассона:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b3a972ce-5e24-4acf-bb6d-413ec22e3e9f">
+
+Вычислим **момент случайной величины** списка символов:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/2f0676d1-a9e1-4b44-b36f-b4e5d942e49e">
+
+Найдем производящую функцию момента для распределения (наберите <kbd>ESC</kbd> m <kbd>ESC</kbd> 
+для ввода `μ` и <kbd>ESC</kbd> s <kbd>ESC</kbd> для ввода `σ`):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/aade0cde-4cd2-490d-8820-b2f90836f4c9">
+
+Сгенерируем статистические данные с помощью функции `RandomVariate` (используйте функцию 
+`//Short` для получения краткой информации о результате):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/831fc5b1-26d3-4415-9ad5-28bce7c1eb5d">
+
+Визуализируем полученные данные:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f479d5ce-f24a-480b-83d1-222f8720308b">
 
 ---
 
