@@ -29,6 +29,7 @@
         <li><a href="#раздел-19">Дифференциальные уравнения</a></li>
         <li><a href="#раздел-20">Комплексные числа</a></li>
         <li><a href="#раздел-21">Матрицы и линейная алгебра</a></li>
+        <li><a href="#раздел-22">Дискретная математика</a></li>
     </ol>
 </nav>
 
@@ -723,8 +724,8 @@ O[x]<sup>9</sup> представляет член высшего порядка
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/c32f38d6-b136-4b62-8684-debcb9c1cf73">
 
-Их можно вводить в табличном виде, используя <kbd>CTRL</kbd> + <kbd>ENTER</kbd> для добавления строк и 
-<kbd>CTRL</kbd> + <kbd>,</kbd> для добавления столбцов:
+Их можно вводить в табличном виде, используя <kbd>CTRL</kbd> + <kbd>ENTER</kbd> для добавления 
+строк и <kbd>CTRL</kbd> + <kbd>,</kbd> для добавления столбцов:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f1624bbf-80f0-4d29-b0e0-41c98493801c">
 
@@ -740,8 +741,8 @@ O[x]<sup>9</sup> представляет член высшего порядка
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/e1824667-afd3-490b-b0cd-d39dfc182ca3">
 
-`IdentityMatrix`, `DiagonalMatrix` и другие встроенные функции используются для создания матриц специального 
-вида.
+`IdentityMatrix`, `DiagonalMatrix` и другие встроенные функции используются для создания матриц 
+специального вида.
 
 Стандартные **матричные операции** работают поэлементно:
 
@@ -764,6 +765,64 @@ O[x]<sup>9</sup> представляет член высшего порядка
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/8faf801f-8500-4a6c-a446-10292e4a9c39">
 
 Реализованы также функции для **минимизации** и **декомпозиции матриц**.
+
+---
+
+<h2 id="раздел-22">Дискретная математика <a href="#top">↑top↑</a></h2>
+
+Выполним ряд базовых операций теории чисел, например, **факторизацию целого числа**:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/cf0f9046-0188-49b6-b81c-80f3eb9045e3">
+
+Найдем наибольший общий делитель `GCD` (или наименьший общий делитель `LCM`) любых двух целых 
+чисел:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/431fb9ee-9542-44cc-a8dc-ea522f3248a5">
+
+Отобразим 4-е **простое** число:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/2a04fe1b-f937-47c2-857b-439b5505c1ba">
+
+Проверим является ли это число простым:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/fc5ea75d-c751-4b95-8d01-570e24450111">
+
+Аналогичный тест реализован и для взаимно простых чисел:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/555aabf9-61e3-4378-b23c-c4660aa9f67e">
+
+Используем функцию `Mod` для определения остатка от деления:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/cbf03a22-63f7-43ab-975d-1d44ad6d18b2">
+
+Получим все возможные **перестановки** списка:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/fe464fa4-32e2-429d-a5d3-e69df76db3a1">
+
+Применим функцию `Permute` к списку c использованием функции `Cycles` (функция `Cycles` в 
+качестве аргумента принимает список списков):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/853950ec-7fef-4001-a80b-6dceea138484">
+
+Найдем **порядок перестановки**:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/78ff7150-b94a-4dd1-848b-8b69cf8ba9ad">
+
+Сгенерируем **граф** из списка ребер (используйте <kbd> ue </kbd> для ввода **неориентированного 
+ребра** или <kbd> de </kbd> для ввода **ориентированного ребра**):
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/9de7221f-3ed9-480c-b98d-310faf305e18">
+
+Найдем кратчайший путь между двумя вершинами:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/09db9e3f-4828-45f9-a5a3-99da885a093b">
+
+Исследуем хорошо известные графы, используя **естественную форму ввода**:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/9c46c763-32a6-4a60-a135-5ce6477b20ba">
+
+В Язык Wolfram также встроены функции для решения задач из области **комбинаторики**, **теории 
+вероятностей**, **целочисленных последовательностей** и многие другие.
 
 ---
 
