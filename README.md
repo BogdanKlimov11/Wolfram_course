@@ -28,6 +28,7 @@
         <li><a href="#раздел-18">Векторный анализ и визуализация</a></li>
         <li><a href="#раздел-19">Дифференциальные уравнения</a></li>
         <li><a href="#раздел-20">Комплексные числа</a></li>
+        <li><a href="#раздел-21">Матрицы и линейная алгебра</a></li>
     </ol>
 </nav>
 
@@ -713,6 +714,56 @@ O[x]<sup>9</sup> представляет член высшего порядка
 Визуализируем мнимую компоненту, используя функцию `DensityPlot`:
 
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/b3feaa31-083a-4dfe-860a-b5de5df375d7">
+
+---
+
+<h2 id="раздел-21">Матрицы и линейная алгебра <a href="#top">↑top↑</a></h2>
+
+В Языке Wolfram матрицы представляются как списки списков:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/c32f38d6-b136-4b62-8684-debcb9c1cf73">
+
+Их можно вводить в табличном виде, используя <kbd>CTRL</kbd> + <kbd>ENTER</kbd> для добавления строк и 
+<kbd>CTRL<kbd> + <kbd>,<kbd> для добавления столбцов:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f1624bbf-80f0-4d29-b0e0-41c98493801c">
+
+Функция `MatrixForm` позволяет отобразить матрицу в классическом виде:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/8a3dcb3c-3232-4422-abec-a989a91df906">
+
+**Матрицы можно создавать** с помощью итерационных функций:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/dbf2a04d-d2ae-427b-a4e6-61289d86b004">
+
+Или **импортировать** данные, которые представляют собой матрицу:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/e1824667-afd3-490b-b0cd-d39dfc182ca3">
+
+`IdentityMatrix`, `DiagonalMatrix` и другие встроенные функции используются для создания матриц специального 
+вида.
+
+Стандартные **матричные операции** работают поэлементно:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/966bf681-1a47-446c-8312-0b7442d544cf">
+
+Вычисление **произведения** двух матриц:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/3ef28510-d790-4b68-88dd-ad35a242813d">
+
+Вычисление **детерминанта**:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/a1d60be3-068d-49ad-8c5f-643d6528ae0a">
+
+Поиск **обратной** матрицы:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f800593d-7cd1-4eb9-add3-09b851177bbb">
+
+Функция `LinearSolve` используется для решения систем линейных уравнений:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/8faf801f-8500-4a6c-a446-10292e4a9c39">
+
+Реализованы также функции для **минимизации** и **декомпозиции матриц**.
 
 ---
 
