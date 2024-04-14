@@ -35,6 +35,7 @@
         <li><a href="#раздел-25">Функции для визуализации данных и аппроксимации кривых</a></li>
         <li><a href="#раздел-26">Теория групп</a></li>
         <li><a href="#раздел-27">Математические головоломки</a></li>
+        <li><a href="#раздел-28">Интерактивные модели</a></li>
     </ol>
 </nav>
 
@@ -1026,6 +1027,25 @@ O[x]<sup>9</sup> представляет член высшего порядка
 <img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/57c4a53e-dd21-4e1c-918f-135ead0f1b00">
 
 Большое число различных углубленных примеров доступно на **Wolfram Demonstrations Project**.
+
+---
+
+<h2 id="раздел-28">Интерактивные модели <a href="#top">↑top↑</a></h2>
+
+Функция `Manipulate` позволяет создавать интерактивные объекты для исследования их поведения 
+в реальном времени:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/f1a30e14-5c4a-447d-bee2-af0038e7bd69">
+
+Одна функция `Manipulate` может включать в себя несколько контроллеров, а Язык Wolfram 
+автоматически выбирает для них оптимальное расположение:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/463fa3b8-6703-4551-8e1c-5fa1bc800b27">
+
+Любое выражение на Языке Wolfram можно сделать интерактивным, а не только объекты 
+визуализации:
+
+<img src="https://github.com/BogdanKlimov11/Wolfram_course/assets/136115919/a1bba998-2d27-4098-81c0-a0282bf640c9">
 
 ---
 
